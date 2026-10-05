@@ -2,23 +2,11 @@
 
 ![Preview](theme_preview.png)
 
-## Install
-
-### Option 1: Script
-
-```bash
-git clone https://github.com/6z7y/vampire-knight-grub-theme.git
-cd vampire-knight-grub-theme/vampireknight
-sudo ./install.sh        # or: doas ./install.sh
-```
-
-Then reboot.
-
-### Option 2: Manual
-
+### Install Manual
 1. Copy the theme folder:
 
    ```bash
+   git clone https://github.com/6z7y/vampire-knight-grub-theme.git
    sudo mkdir -p /boot/grub/themes
    sudo cp -r vampireknight /boot/grub/themes/
    ```
